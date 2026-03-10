@@ -14,25 +14,25 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": true,
 	"EnabledByDefault": false,
-	"SupportedTargetPlatforms": [ "Win64" ],
+	"SupportedTargetPlatforms": [ "Win64","Linux" ],
 	"Modules": [
 		{
 			"Name": "NDIMedia",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"PlatformAllowList": [ "Win64" ]
+			"PlatformAllowList": [ "Win64","Linux" ]
 		},
 		{
 			"Name": "NDIMediaEditor",
 			"Type": "Editor",
 			"LoadingPhase": "PostEngineInit",
-			"PlatformAllowList": [ "Win64" ]
+			"PlatformAllowList": [ "Win64","Linux" ]
 		},
 		{
 			"Name": "NDIMediaRendering",
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
-			"PlatformAllowList": [ "Win64" ]
+			"PlatformAllowList": [ "Win64" ,"Linux"]
 		}
 	],
 	"Plugins": [

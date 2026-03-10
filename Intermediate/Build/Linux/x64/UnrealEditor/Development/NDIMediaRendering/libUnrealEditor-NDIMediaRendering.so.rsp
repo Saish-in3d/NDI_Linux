@@ -1,0 +1,6 @@
+"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Intermediate/Build/Linux/x64/UnrealEditor/Development/NDIMediaRendering/Module.NDIMediaRendering.cpp.o"
+ -soname="libUnrealEditor-NDIMediaRendering.so"
+ -rpath-link="/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Binaries/Linux"
+ -L"/home/saish/Unreal/5.6.1/Linux_Unreal_Engine_5.6.1/Engine/Binaries/Linux"
+ --start-group
+ --end-group
