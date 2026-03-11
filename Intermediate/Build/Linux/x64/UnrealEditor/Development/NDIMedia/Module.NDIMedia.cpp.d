@@ -3514,6 +3514,20 @@
   ../Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/include/c++/v1/__charconv/from_chars_result.h \
   ../Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/include/c++/v1/__type_traits/is_integral.h \
   ../Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/include/c++/v1/__charconv/to_chars.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Lib.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.compat.h \
+  ../Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/include/c++/v1/stdint.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.structs.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Find.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Recv.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Recv.ex.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Send.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Routing.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.utilities.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.deprecated.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.FrameSync.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.DynamicLoad.h \
+  /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include/Processing.NDI.Lib.cplusplus.h \
   /home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/NDIMedia/Private/NDIMediaCapture.cpp \
   Runtime/Engine/Classes/Engine/Engine.h \
   Runtime/Engine/Classes/Engine/TextureRenderTarget2D.h \

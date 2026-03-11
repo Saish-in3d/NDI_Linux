@@ -316,6 +316,7 @@
 -I"Runtime/OpenColorIOWrapper/Public"
 -I"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source"
 -I"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/NDIMediaRendering/Internal"
+-I"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/ThirdParty/NDI/Include"
 -I"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Intermediate/Build/Linux/UnrealEditor/Inc/NDIMedia/UHT"
 -I"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Source/NDIMedia/Public"
 -I"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Intermediate/Build/Linux/x64/FieldPlotLinux_TestEditor/Development/UnrealEd"

@@ -22,5 +22,21 @@ public class NDISDK : ModuleRules
             // Ensure that we define our c++ define
             PublicDefinitions.Add("NDI_SDK_ENABLED");
         }
+        
+        if (Target.Platform == UnrealTargetPlatform.Linux)
+        {
+            string IncludePath = Path.Combine(ModuleDirectory, "Include");
+            PublicIncludePaths.Add(IncludePath);
+            
+            //PublicAdditionalLibraries.Add("/opt/ndi/lib/libndi.so");
+
+            //RuntimeDependencies.Add("/opt/ndi/lib/libndi.so");
+            
+            
+            
+            // Ensure that we define our c++ define
+            PublicDefinitions.Add("NDI_SDK_ENABLED");
+        }
+
     }
 }

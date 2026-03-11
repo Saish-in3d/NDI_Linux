@@ -40,7 +40,10 @@ FNDIMediaRuntimeLibrary::FNDIMediaRuntimeLibrary(const FString& InLibraryPath)
 	if (LibHandle)
 	{
 		typedef const NDIlib_v5* (*NDIlib_v5_load_ptr)(void);
-		if (const NDIlib_v5_load_ptr NDILib_v5_load = static_cast<NDIlib_v5_load_ptr>(FPlatformProcess::GetDllExport(LibHandle, TEXT("NDIlib_v5_load"))))
+		if (const NDIlib_v5_load_ptr NDILib_v5_load =
+		reinterpret_cast<NDIlib_v5_load_ptr>(
+			FPlatformProcess::GetDllExport(LibHandle, TEXT("NDIlib_v5_load"))
+		))
 		{
 			Lib = NDILib_v5_load();
 			if (Lib != nullptr)
