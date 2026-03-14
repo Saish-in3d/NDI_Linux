@@ -432,7 +432,6 @@ void UNDIMediaCapture::StopCaptureImpl(bool /*bAllowPendingFrameToBeProcess*/)
 	TRACE_BOOKMARK(TEXT("NDIMediaCapture::StopCapture"));
 
 	FScopeLock ScopeLock(&CaptureInstanceCriticalSection);
-
 	delete CaptureInstance;
 	CaptureInstance = nullptr;
 }

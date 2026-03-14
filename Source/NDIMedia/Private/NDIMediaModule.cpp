@@ -100,6 +100,9 @@ void FNDIMediaModule::StartupModule()
 {
 	// supported platforms
 	SupportedPlatforms.Add(TEXT("Windows"));
+	
+	
+	SupportedPlatforms.Add(TEXT("Linux"));
 
 	// supported schemes
 	SupportedUriSchemes.Add(TEXT("ndi")); // Also in NdiDeviceProvider.cpp
@@ -249,8 +252,17 @@ namespace UE::NDIMedia::Private
 	
 		if (bInUseBundled)
 		{
-			LibraryPath = FPaths::Combine(IPluginManager::Get().FindPlugin(TEXT("NDIMedia"))->GetBaseDir(), TEXT("/Binaries/ThirdParty/Win64"));
-		}
+			FString BaseDir = IPluginManager::Get().FindPlugin(TEXT("NDIMedia"))->GetBaseDir();
+       
+#if PLATFORM_WINDOWS
+			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/Win64"));
+#elif PLATFORM_LINUX
+			// This matches the folder shown in your screenshot
+			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/Linux"));
+#else
+			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/Unknown"));
+#endif
+			}
 		else
 		{
 			LibraryPath = !InPathOverride.IsEmpty() ? InPathOverride : FPlatformMisc::GetEnvironmentVariable(DefaultVariableName);
