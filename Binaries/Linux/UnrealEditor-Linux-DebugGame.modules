@@ -1,0 +1,9 @@
+{
+	"BuildId": "43139311",
+	"Modules": 
+	{
+		"NDIMedia": "libUnrealEditor-NDIMedia-Linux-DebugGame.so",
+		"NDIMediaEditor": "libUnrealEditor-NDIMediaEditor-Linux-DebugGame.so",
+		"NDIMediaRendering": "libUnrealEditor-NDIMediaRendering-Linux-DebugGame.so"
+	}
+}

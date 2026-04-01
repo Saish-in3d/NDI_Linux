@@ -1,0 +1,11 @@
+"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Intermediate/Build/Linux/x64/UnrealEditor/DebugGame/NDIMediaEditor/Module.NDIMediaEditor.cpp.o"
+ -soname="libUnrealEditor-NDIMediaEditor-Linux-DebugGame.so"
+ -rpath="${ORIGIN}/../../../../../../../../Unreal/5.6.1/Linux_Unreal_Engine_5.6.1/Engine/Plugins/Media/MediaPlayerEditor/Binaries/Linux"
+ -rpath="${ORIGIN}/../../../../../../../../Unreal/5.6.1/Linux_Unreal_Engine_5.6.1/Engine/Plugins/Media/MediaIOFramework/Binaries/Linux"
+ -rpath-link="/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Binaries/Linux"
+ -L"/home/saish/Unreal/5.6.1/Linux_Unreal_Engine_5.6.1/Engine/Binaries/Linux"
+ -L"/home/saish/Unreal/5.6.1/Linux_Unreal_Engine_5.6.1/Engine/Plugins/Media/MediaPlayerEditor/Binaries/Linux"
+ -L"/home/saish/Unreal/5.6.1/Linux_Unreal_Engine_5.6.1/Engine/Plugins/Media/MediaIOFramework/Binaries/Linux"
+ -L"/home/saish/dev/unreal_projects/FieldPlotLinux_Test/FieldPlotLinux_Test/Plugins/NDIMedia/Binaries/Linux"
+ --start-group
+ --end-group
