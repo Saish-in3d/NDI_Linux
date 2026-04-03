@@ -429,7 +429,7 @@ bool UNDIMediaCapture::UpdateAudioDeviceImpl(const FAudioDeviceHandle& InAudioDe
 
 void UNDIMediaCapture::StopCaptureImpl(bool /*bAllowPendingFrameToBeProcess*/)
 {
-	return;
+	//return;
 	TRACE_BOOKMARK(TEXT("NDIMediaCapture::StopCapture"));
 
 	FScopeLock ScopeLock(&CaptureInstanceCriticalSection);
