@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UNDIMediaTimecodeProvider ************************************************
 NDIMEDIA_API UClass* Z_Construct_UClass_UNDIMediaTimecodeProvider_NoRegister();
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNDIMediaTimecodeProvider(); \
 	friend struct Z_Construct_UClass_UNDIMediaTimecodeProvider_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UNDIMediaTimecodeProvider)
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NDIMEDIA_API UNDIMediaTimecodeProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NDIMEDIA_API virtual ~UNDIMediaTimecodeProvider();
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_16_PROLOG
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_GENERATED_BODY \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_16_PROLOG
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_ENHANCED_CONSTRUCTORS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_INCLASS_NO_PURE_DECLS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UNDIMediaTimecodeProvider;
 // ********** End Class UNDIMediaTimecodeProvider **************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h
+#define CURRENT_FILE_ID FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaTimecodeProvider_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

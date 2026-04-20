@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FNDIMediaReceiverPerformanceData **********************************
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Private_Player_NDIMediaReceiverPerformanceData_h_13_GENERATED_BODY \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Private_Player_NDIMediaReceiverPerformanceData_h_13_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FNDIMediaReceiverPerformanceData_Statics; \
 	NDIMEDIA_API static class UScriptStruct* StaticStruct();
 
@@ -26,6 +26,6 @@ struct FNDIMediaReceiverPerformanceData;
 // ********** End ScriptStruct FNDIMediaReceiverPerformanceData ************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Private_Player_NDIMediaReceiverPerformanceData_h
+#define CURRENT_FILE_ID FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Private_Player_NDIMediaReceiverPerformanceData_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

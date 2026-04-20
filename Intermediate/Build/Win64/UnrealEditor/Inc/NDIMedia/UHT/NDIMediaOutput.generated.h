@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UNDIMediaOutput **********************************************************
 NDIMEDIA_API UClass* Z_Construct_UClass_UNDIMediaOutput_NoRegister();
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h_55_INCLASS_NO_PURE_DECLS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h_55_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNDIMediaOutput(); \
 	friend struct Z_Construct_UClass_UNDIMediaOutput_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UNDIMediaOutput)
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h_55_ENHANCED_CONSTRUCTORS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h_55_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UNDIMediaOutput(UNDIMediaOutput&&) = delete; \
 	UNDIMediaOutput(const UNDIMediaOutput&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UNDIMediaOutput();
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h_52_PROLOG
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h_55_GENERATED_BODY \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h_52_PROLOG
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h_55_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h_55_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h_55_ENHANCED_CONSTRUCTORS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h_55_INCLASS_NO_PURE_DECLS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h_55_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,7 +55,7 @@ class UNDIMediaOutput;
 // ********** End Class UNDIMediaOutput ************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaOutput_h
+#define CURRENT_FILE_ID FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaOutput_h
 
 // ********** Begin Enum ENDIMediaOutputPixelFormat ************************************************
 #define FOREACH_ENUM_ENDIMEDIAOUTPUTPIXELFORMAT(op) \

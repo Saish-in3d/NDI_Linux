@@ -10,7 +10,7 @@ public class NDISDK : ModuleRules
         Type = ModuleType.External;
 
 		// The NDI SDK is available for Win64 + Linux, but this plugin only supports Win64
-        /*if (Target.Platform == UnrealTargetPlatform.Win64)
+        if (Target.Platform == UnrealTargetPlatform.Win64)
         {
             string IncludePath = Path.Combine(ModuleDirectory, "Include");
 	        PublicIncludePaths.Add(IncludePath);
@@ -21,7 +21,7 @@ public class NDISDK : ModuleRules
 
             // Ensure that we define our c++ define
             PublicDefinitions.Add("NDI_SDK_ENABLED");
-        }*/
+        }
         
         if (Target.Platform == UnrealTargetPlatform.Linux)
         {

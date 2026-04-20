@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UNDIMediaSourceFactory ***************************************************
 NDIMEDIAEDITOR_API UClass* Z_Construct_UClass_UNDIMediaSourceFactory_NoRegister();
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNDIMediaSourceFactory(); \
 	friend struct Z_Construct_UClass_UNDIMediaSourceFactory_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UNDIMediaSourceFactory)
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UNDIMediaSourceFactory(UNDIMediaSourceFactory&&) = delete; \
 	UNDIMediaSourceFactory(const UNDIMediaSourceFactory&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UNDIMediaSourceFactory();
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_11_PROLOG
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_GENERATED_BODY \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_11_PROLOG
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_ENHANCED_CONSTRUCTORS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_INCLASS_NO_PURE_DECLS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UNDIMediaSourceFactory;
 // ********** End Class UNDIMediaSourceFactory *****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h
+#define CURRENT_FILE_ID FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaSourceFactory_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UNDIMediaOutputFactory ***************************************************
 NDIMEDIAEDITOR_API UClass* Z_Construct_UClass_UNDIMediaOutputFactory_NoRegister();
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_INCLASS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUNDIMediaOutputFactory(); \
 	friend struct Z_Construct_UClass_UNDIMediaOutputFactory_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UNDIMediaOutputFactory)
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_STANDARD_CONSTRUCTORS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNDIMediaOutputFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNDIMediaOutputFactory) \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UNDIMediaOutputFactory();
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_12_PROLOG
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_GENERATED_BODY_LEGACY \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_12_PROLOG
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_INCLASS \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_STANDARD_CONSTRUCTORS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_INCLASS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UNDIMediaOutputFactory;
 // ********** End Class UNDIMediaOutputFactory *****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Engine_Plugins_Media_NDIMedia_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h
+#define CURRENT_FILE_ID FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMediaEditor_Private_NDIMediaOutputFactory_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UNDIMediaSource **********************************************************
 NDIMEDIA_API UClass* Z_Construct_UClass_UNDIMediaSource_NoRegister();
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNDIMediaSource(); \
 	friend struct Z_Construct_UClass_UNDIMediaSource_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UNDIMediaSource)
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h_18_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UNDIMediaSource(UNDIMediaSource&&) = delete; \
 	UNDIMediaSource(const UNDIMediaSource&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NDIMEDIA_API virtual ~UNDIMediaSource();
 
 
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h_15_PROLOG
-#define FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h_18_GENERATED_BODY \
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h_15_PROLOG
+#define FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h_18_ENHANCED_CONSTRUCTORS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h_18_INCLASS_NO_PURE_DECLS \
+	FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UNDIMediaSource;
 // ********** End Class UNDIMediaSource ************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Engine_Plugins_Media_NDIMedia_Source_NDIMedia_Public_NDIMediaSource_h
+#define CURRENT_FILE_ID FID_FieldPlotLinux_Test_Plugins_NDI_Linux_Source_NDIMedia_Public_NDIMediaSource_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
