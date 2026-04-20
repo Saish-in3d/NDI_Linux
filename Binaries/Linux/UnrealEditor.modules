@@ -1,9 +1,0 @@
-{
-	"BuildId": "43139311",
-	"Modules": 
-	{
-		"NDIMedia": "libUnrealEditor-NDIMedia.so",
-		"NDIMediaEditor": "libUnrealEditor-NDIMediaEditor.so",
-		"NDIMediaRendering": "libUnrealEditor-NDIMediaRendering.so"
-	}
-}
