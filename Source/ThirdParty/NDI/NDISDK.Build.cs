@@ -28,18 +28,16 @@ public class NDISDK : ModuleRules
             string IncludePath = Path.Combine(ModuleDirectory, "Include");
             PublicIncludePaths.Add(IncludePath);
             
-            // ENSURE THIS STRING MATCHES YOUR FOLDER NAME EXACTLY
-            // Based on your screenshot, this should be "Linux"
-            string LinuxPlatformSubdir = "Linux"; 
+            string LinuxPlatformSubdir = "Linux64"; 
     
             string LibDir = Path.Combine(PluginDirectory, "Binaries", "ThirdParty", LinuxPlatformSubdir);
     
-            // Add the specific file to runtime dependencies
-            // Use libndi.so.6 as it is the standard SONAME the binary expects
-            RuntimeDependencies.Add(Path.Combine(LibDir, "libndi.so.6"));
-            RuntimeDependencies.Add(Path.Combine(LibDir, "libndi.so.6.3.1"));
-    
-            // If you are using a loader script in C++, point it here:
+            string DllName1 = Path.Combine("libndi.so.6");
+            string DllName2 = Path.Combine("libndi.so.6.3.1");
+            
+            RuntimeDependencies.Add(Path.Combine(LibDir, DllName1));
+            RuntimeDependencies.Add(Path.Combine(LibDir, DllName2));
+
             PublicDefinitions.Add("NDI_SDK_ENABLED");
         }
 
