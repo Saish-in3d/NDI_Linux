@@ -33,7 +33,7 @@ public class NDISDK : ModuleRules
             string LibDir = Path.Combine(PluginDirectory, "Binaries", "ThirdParty", LinuxPlatformSubdir);
     
             string DllName1 = Path.Combine("libndi.so.6");
-            string DllName2 = Path.Combine("libndi.so.6.3.1");
+            string DllName2 = Path.Combine("libndi.so");
             
             RuntimeDependencies.Add(Path.Combine(LibDir, DllName1));
             RuntimeDependencies.Add(Path.Combine(LibDir, DllName2));
