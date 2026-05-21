@@ -255,7 +255,7 @@ namespace UE::NDIMedia::Private
 			FString BaseDir = IPluginManager::Get().FindPlugin(TEXT("NDIMedia"))->GetBaseDir();
        
 #if PLATFORM_WINDOWS
-			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/Win64"));
+			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/NDI_Library/NDI6484/Win64"));
 #elif PLATFORM_LINUX
 			// This matches the folder shown in your screenshot
 			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/NDI_Library/NDI6484/Linux"));
