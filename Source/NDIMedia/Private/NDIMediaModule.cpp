@@ -258,7 +258,7 @@ namespace UE::NDIMedia::Private
 			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/Win64"));
 #elif PLATFORM_LINUX
 			// This matches the folder shown in your screenshot
-			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty//NDI_Library/NDI6484/Linux"));
+			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/NDI_Library/NDI6484/Linux"));
 #else
 			LibraryPath = FPaths::Combine(BaseDir, TEXT("Binaries/ThirdParty/Unknown"));
 #endif

@@ -140,7 +140,7 @@ public class NDISDK : ModuleRules
 
             // Add the absolute paths to DelayLoadDLLs just like Epic does for .so files
             //PublicDelayLoadDLLs.Add(Path.Combine(OrtPlatformPath, SharedLibFileNameWithoutVersion));
-            //PublicDelayLoadDLLs.Add(Path.Combine(OrtPlatformPath, SharedLibFileNameVersion6));
+            PublicDelayLoadDLLs.Add(Path.Combine(OrtPlatformPath, SharedLibFileNameVersion6));
             PublicDelayLoadDLLs.Add(Path.Combine(OrtPlatformPath, SharedLibFileName));
 
             // Explicitly register them as packaged RuntimeDependencies
